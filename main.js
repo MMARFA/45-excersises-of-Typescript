@@ -1,4 +1,1 @@
-var personName = "Arfat Asif";
-console.log(personName.toLowerCase());
-console.log(personName.toUpperCase());
-console.log(personName.replace(/\b\w/g, function (char) { return char.toUpperCase(); }));
+console.log("Albert Einstein once said,\"A person who never made a mistake never tried anything new.\"");
