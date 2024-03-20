@@ -1,3 +1,2 @@
-let friendsName = ["Arfat","Arbish","Asif","Sumaira"];
-
-friendsName.forEach(friendName => console.log(`Hello ${friendName},How are you`));
+let transportationModes = ["sportbike","sportcar","bike","car"];
+transportationModes.forEach(transportationMode => console.log(`I would like to own a ${transportationMode}`));
