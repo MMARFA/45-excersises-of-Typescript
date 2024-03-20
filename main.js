@@ -1,3 +1,4 @@
-var famousPerson = "Albert Einstein";
-var message = "once said, “A person who never made a mistake never tried anything new.”";
-console.log(famousPerson, message);
+var whitespaceName = "\n\tArfat Asif\n\t";
+console.log(whitespaceName);
+var withoutwhitespaceName = whitespaceName.trim();
+console.log(withoutwhitespaceName);
