@@ -1,2 +1,7 @@
-let personName = "Arfat Asif";
-console.log("Hello", personName, "would you to learn some python today?" );
+let personName = "Arfat Asif"
+
+console.log(personName.toLowerCase());
+
+console.log(personName.toUpperCase())
+
+console.log(personName.replace(/\b\w/g, (char)=> char.toUpperCase()))
