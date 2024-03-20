@@ -1,4 +1,4 @@
-var whitespaceName = "\n\tArfat Asif\n\t";
-console.log(whitespaceName);
-var withoutwhitespaceName = whitespaceName.trim();
-console.log(withoutwhitespaceName);
+console.log(5 + 3);
+console.log(10 - 2);
+console.log(2 * 4);
+console.log(16 / 2);
