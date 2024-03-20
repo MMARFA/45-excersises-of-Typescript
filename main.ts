@@ -1,5 +1,11 @@
-let favNumber = 10;
+//Addition
+console.log(5+3);
 
-let message = "mine fav number is:";
+//Substraction
+console.log(10-2);
 
-console.log(message, favNumber);
+//Multipication
+console.log(2*4);
+
+//Division
+console.log(16/2);
