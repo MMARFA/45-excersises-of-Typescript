@@ -1,2 +1,2 @@
-var transportationModes = ["sportbike", "sportcar", "bike", "car"];
-transportationModes.forEach(function (transportationMode) { return console.log("I would like to own a ".concat(transportationMode)); });
+var guestList = ["Arfat", "kamran", "Asif"];
+guestList.forEach(function (guestList) { return console.log("salam ".concat(guestList, " , would you like to dinner with me?")); });

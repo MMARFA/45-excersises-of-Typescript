@@ -1,2 +1,3 @@
-let transportationModes = ["sportbike","sportcar","bike","car"];
-transportationModes.forEach(transportationMode => console.log(`I would like to own a ${transportationMode}`));
+let guestList = ["Arfat", "kamran", "Asif"];
+
+guestList.forEach(guestList => console.log(`salam ${guestList} , would you like to dinner with me?`));
