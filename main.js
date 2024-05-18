@@ -1,21 +1,19 @@
-var guestList = ["Arfat", "kamran", "atif"];
-var dontCome = guestList[1];
-console.log(dontCome, "nai aha sakta");
-guestList.splice(0, 1, "hussain");
-console.log("Good news ! we found a big table for dinner");
-guestList.unshift("asif");
-guestList.push("sufiyan");
-var middleIndex = Math.floor(guestList.length / 2);
-guestList.splice(middleIndex, 0, "Ahmed");
-console.log("updated list for guest");
-guestList.forEach(function (guestList) { return console.log("salam ".concat(guestList, " , would you like to dinner with me?")); });
-console.log("unfortunataly , the new dinner table wont arrive to timeso it can only invite two guest to dinner with me");
-while (guestList.length > 2) {
-    var removeGuest = guestList.pop();
-    console.log("sorry , ".concat(removeGuest, " i cant invite you to dinner"));
-}
-console.log("invitations to the last to guest");
-guestList.forEach(function (lasttwo) { return console.log("luckly ".concat(lasttwo, " you are still invited for the dinner")); });
-guestList.pop();
-guestList.pop();
-console.log("Empty list:", guestList);
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
+var countriesTovisit = ["canada", "nigeria", "brazil", "india"];
+console.log("original order:", countriesTovisit);
+console.log("Alphabtical order:", __spreadArray([], countriesTovisit, true).sort());
+console.log("still in original order:", countriesTovisit);
+console.log("reverse order:", __spreadArray([], countriesTovisit, true).reverse());
+console.log("still in original order:", countriesTovisit);
+console.log("original array reversed:", countriesTovisit.reverse());
+console.log("back to original order:", countriesTovisit.reverse());
+console.log("sort the alphabetical order:", countriesTovisit.sort());
+console.log("original array reversed:", countriesTovisit.reverse());
